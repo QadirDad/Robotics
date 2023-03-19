@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 12vh;
+    margin: auto;
+}
+.navbar .logo{
+    font-size: 2rem;
+}
+.navbar .navlist{
+    display: flex;
+    gap: 2rem;
+
+}
+.navlist li{
+    list-style: none;
+}
+.navlist a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+.container .hero{
+    width: 100%;
+    height: 75vh;
+    background-image: url("https://images.pexels.com/photos/8294594/pexels-photo-8294594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(34, 35, 36, 0.323) 0px 20px 10px -10px;
+}
+.content h1{
+    font-size: 4rem;
+    color: white;
+
+}
+.content p{
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    max-width: 50rem;
+    line-height: 2rem;
+}
+.Choose{
+    background-color: #F3F3F3;
+    padding: 7rem 0;
+    width: 100%;
+}
+.Choose .choose__content{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.choose__content h1{
+    font-size: 3rem;
+}
+.choose__content p{
+    color: rgba(0, 0, 0, 0.499);
+    margin: 2.2rem 0;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.choose__content button{
+    background-color: black;
+    padding: 1.3rem 2rem;
+    border-radius: 3rem;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    margin-top: 1.7rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.interface{
+    background-color: rgb(0, 0, 0);
+    padding: 5rem 0;
+    width: 100%;
+}
+.interface .main__interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+
+}
+.main__interface .image{
+    background-color: white;
+    width: 30rem;
+    height: 30rem;
+}
+.interface .interface__content{
+    max-width: 33rem;
+    color: white;
+}
+.Robotics{
+    background-color: #F3F3F3;
+    width: 100%;
+
+}
+.Robotics .main__Robotics{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 2rem;
+    justify-content: center;
+
+}
+.main__Robotics .image{
+    background-color: rgb(223, 223, 223);
+    width: 30rem;
+    height: 40rem;
+}
+.Robotics .Robotics__content{
+    max-width: 33rem;
+    color: rgb(0, 0, 0);
+}
+.News{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.News .News__content h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.News__content .slider{
+    width: 45rem;
+    height: 20rem;
+    background-color: gray;
+    margin-top: 3rem;
+}
+.news__letter{
+    background-color: #ffffff;
+    padding: 10rem 0;
+}
+.news__letter__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.news__letter__content p{
+    color: rgba(0, 0, 0, 0.499);
+    margin: 2.2rem 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    max-width: 45rem;
+    text-align: center;
+}
+.news__letter__content input{
+    width: 25rem;
+    height: 3rem;
+    background-color: transparent;
+    border: .01rem solid gray;
+    border-radius: 5rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    color: black;
+}
+
+.news__letter__content button{
+    background-color: rgb(152, 35, 35);
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    margin-top: 1.7rem;
+    text-transform: uppercase;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.footer{
+    background-color: black;
+    padding: 3rem 0;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+.footer__content .resource{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+}
+
+.resource h1{
+    color: rgba(255, 255, 255, 0.499);
+    font-size: 2rem;
+}
+.resource input{
+    width: 25rem;
+    height: 3rem;
+    background-color: white;
+    border: none;
+    border-radius: 5rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.resource button{
+    background-color: rgb(152, 35, 35);
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.resource h1{
+    color: white;
+}
+.resource li{
+    list-style: none;
+}
+.resource a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.1rem;
+    width: 100%;
+}
+.footer p{
+    color: gray;
+    font-size: .9rem;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+
